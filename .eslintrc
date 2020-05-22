@@ -1,0 +1,14 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "object-curly-spacing": "off",
+    "require-jsdoc": "off",
+    "max-len": [2, 100, 2]
+  },
+  "extends": ["eslint:recommended", "google"]
+}
